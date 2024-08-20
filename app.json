@@ -18,10 +18,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.seoleem.NomadTodo"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": ["expo-font", "expo-build-properties"],
+    "extra": {
+      "eas": {
+        "projectId": "e6062830-9afc-49c2-82a4-911ed64209f5"
+      }
     }
   }
 }
